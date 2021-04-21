@@ -9,6 +9,8 @@ class StringFinder:
         selection = input('Please enter a String: ')
         print(self.findLargestRepeatingSubstring(selection))
 
+    #  This method takes in a String and searches for the largest substring that would fit inside it
+    #  @Ret -1 if no suitable substring can be found
     def findLargestRepeatingSubstring(self, inStr) -> str:
         stringLen = len(inStr)
 
